@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	font-family: helvetica, arial, sans-serif;
 	font-size: 18px;
+	line-height: 30px;
 }
 header{
 	background-color: steelblue;
@@ -39,5 +40,28 @@ main img{
 h2{
 	font-size: 30px;
 	color: steelblue;
+	margin: 40px 0 10px;
 }
 
+a{
+	color: steelblue;
+}
+a:hover{
+	background-color: darkorange;
+}
+
+footer{
+	background-color: steelblue;
+	text-align: center;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+
+p.caption{
+	color: gray;
+	font-style: italic;
+	margin-top: 0;
+}
